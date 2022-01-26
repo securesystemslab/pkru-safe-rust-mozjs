@@ -51,7 +51,7 @@ lazy_static = "1"
 libc = "0.2"
 log = "0.4"
 num-traits = "0.2"
-mozjs_sys = { git = "https://github.com/securesystemslab/pkru-safe-mozjs.git" }
+mozjs_sys = { git = "https://github.com/securesystemslab/pkru-safe-mozjs.git", branch = "no-mpk" }
 mpk = { git = "https://github.com/securesystemslab/pkru-safe-mpk-libc.git" }
-mpk_protector = { git = "https://github.com/securesystemslab/pkru-safe-mpk-protector.git" }
-pkmallocator = { git = "https://github.com/securesystemslab/pkru-safe-pkmallocator.git" }
+mpk_protector = { git = "https://github.com/securesystemslab/pkru-safe-mpk-protector.git", branch = "no-mpk" }
+pkmallocator = { git = "https://github.com/securesystemslab/pkru-safe-pkmallocator.git", branch = "no-mpk" }
